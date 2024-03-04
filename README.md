@@ -14,13 +14,16 @@ Bonne chance !
 ## Format des données
 
 Chaque jeu de donnée est disponible dans plusieurs formats à votre convenance:\
-- parquet
 
- - xlsx
+-   parquet
 
- - csv
+-   xlsx
 
-## Description des données
+-   csv
+
+Une aide à la lecture de ces fichiers peut être trouvée [sur cette page]()
+
+## Description des données `Paris_2024`
 
 Le jeu de données `paris_2024` contient chacune des sessions programmées aux jeux 2024
 
@@ -52,3 +55,23 @@ Le jeu de données `paris_2024` contient chacune des sessions programmées aux j
 | Catégorie_B_PFR     | Le prix des places pour la catégorie B des publics en fauteuil roulant et accompagnants (€).       | 15                                |
 
 : Dictionnaire de donnée de \`Paris_2024\`
+
+## Description des données `restaurants_proximité`
+
+Le jeu de données `paris_2024` contient chacune des sessions programmées aux jeux 2024
+
+| Nom de colonne    | Description                                                                                                                    | Exemple                        |
+|------------------|------------------------------------|------------------|
+| Etablissement     | le nom de l'établissement                                                                                                      | LE CAFE DU MARCHE              |
+| création          | la date de création de l'établissement                                                                                         | 2016-12-31                     |
+| premiere_activité | la date de première activité                                                                                                   | 2018-06-16                     |
+| adresse           | son adresse                                                                                                                    | 59 Rue de Ponthieu 75008 Paris |
+| Type              | Le type d'établissement dans la base SIREN, parmi Restauration traditionnelle, Restauration de type rapide, Débits de boissons | Restauration traditionnelle    |
+| latitude          | la latitude de l'établissement                                                                                                 | 2.318                          |
+| longitude         | la longitude de l'établissement                                                                                                | 48.86                          |
+| distance          | la distance de l'établissement au stade ou au site des Jeux de Paris (m).                                                      | 1090                           |
+| Lieu              | le site ou le stade de l'épreuve des Jeux                                                                                      | Arena Champ-de-Mars            |
+| ville             | la ville accueillant l'épreuve et son code de département                                                                      | Paris (75)                     |
+| capacité          | la capacité d'accueil du public du `Lieu`                                                                                      | 3349                           |
+
+: Dictionnaire de donnée de \`restaurants_proximité\`
