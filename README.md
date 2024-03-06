@@ -54,7 +54,7 @@ Le jeu de données `paris_2024` contient chacune des sessions programmées aux j
 | Catégorie_A_PFR     | Le prix des places pour la catégorie A des publics en fauteuil roulant et accompagnants (€).       | 25                                |
 | Catégorie_B_PFR     | Le prix des places pour la catégorie B des publics en fauteuil roulant et accompagnants (€).       | 15                                |
 
-: Dictionnaire de donnée de \`Paris_2024\`
+: Dictionnaire de donnée de `Paris_2024`
 
 ## Description des données `restaurants_proximité`
 
@@ -67,11 +67,42 @@ Le jeu de données `paris_2024` contient chacune des sessions programmées aux j
 | premiere_activité | la date de première activité                                                                                                   | 2018-06-16                     |
 | adresse           | son adresse                                                                                                                    | 59 Rue de Ponthieu 75008 Paris |
 | Type              | Le type d'établissement dans la base SIREN, parmi Restauration traditionnelle, Restauration de type rapide, Débits de boissons | Restauration traditionnelle    |
-| latitude          | la latitude de l'établissement                                                                                                 | 2.318                          |
-| longitude         | la longitude de l'établissement                                                                                                | 48.86                          |
+| latitude          | la latitude de l'établissement  (hors format geoparquet)                                                                                               | 2.318                          |
+| longitude         | la longitude de l'établissement  (hors format geoparquet)                                                                       | 48.86                          |
+| coordonnées         | le point de coordonnée (latitude longitude)  (format geoparquet uniquement) |                          |
 | distance          | la distance de l'établissement au stade ou au site des Jeux de Paris (m).                                                      | 1090                           |
 | Lieu              | le site ou le stade de l'épreuve des Jeux                                                                                      | Arena Champ-de-Mars            |
 | ville             | la ville accueillant l'épreuve et son code de département                                                                      | Paris (75)                     |
 | capacité          | la capacité d'accueil du public du `Lieu`                                                                                      | 3349                           |
 
-: Dictionnaire de donnée de \`restaurants_proximité\`
+: Dictionnaire de donnée de `restaurants_proximité`
+
+## Description des formats de fichiers
+
+Pour chaque jeu de données, nous avons tenté de vous faciliter la tâche
+en vous fournissant les fichiers sous plusieurs formats :
+
+| Extension du fichier | Format                          | Outils de prédilection                                                       |
+|----------------------|---------------------------------|------------------------------------------------------------------------------|
+| parquet              | parquet, un format binaire compressé | langages de programmation:  R, python, observable.hq, … |
+| geoparquet              | parquet, un parquet supportant le format geospatial | langages de programmation:  R, python, observable.hq, … |
+| xlsx                 | Office Open XML pour tableurs   | Libre Office Calc, Open Office Calc, Microsoft Excel, …                                |
+| csv             | CSV, avec séparateur `,` et décimales `.` | tous les autres outils |
+
+
+# Télécharger les données
+
+## Ensemble des données
+toute les données sont dans le répertoire `/data/` de l'archive zip si vous cliquez sur [télécharger Hackaviz_2024.zip](https://github.com/Toulouse-Dataviz/hackaviz-2024/archive/refs/heads/main.zip)
+
+## fichier `Paris_2024`
+
+[Paris_2024.parquet]()
+[Paris_2024.csv]()
+[Paris_2024.xlsx]()
+
+## fichier `restaurants_proximité`
+
+[restaurants_proximité.geoparquet]()
+[restaurants_proximité.csv]()
+[restaurants_proximité.xlsx]()
