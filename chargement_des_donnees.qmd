@@ -61,12 +61,11 @@ le fichier `paris_2024.csv` est disponible pour tous les autres outils.
 #### R
 
 ```{{r}}
-# install.packages("pak")
-pak::pak("geoarrow/geoarrow-r@758a1c1")
+install.packages("sfarrow")
 
-library(geoarrow, quietly = TRUE)
+library(sfarrow, quietly = TRUE)
 library(here, quietly = TRUE)
-restaurant <- read_geoparquet_sf(here("data/restaurants_proximité.geoparquet"))
+restaurant <- st_read_parquet(here("data/restaurants_proximité.geoparquet"))
 ```
 
 #### Python
