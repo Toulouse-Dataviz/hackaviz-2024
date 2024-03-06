@@ -5,9 +5,9 @@
 Nous vous proposons cette année un jeu de données sur les épreuves des Jeux de Paris 2024.\
 Le jeu de donnée principal est agrémenté d'un jeu subsidiaire sur les lieux de restauration à proximité des épreuves.
 
-Retrouvez les règles et les modes d’évaluation sur la page des règles de l’Hackaviz de l’association Toulouse DataViz (TDV).
+Retrouvez les règles et les modes d’évaluation sur la page des [règles de l’Hackaviz](https://toulouse-dataviz.fr/hackaviz/2024-contest/) de l’association [Toulouse DataViz (TDV)](http://toulouse-dataviz.fr/).
 
-N’hésitez pas à nous contacter sur le discord du Toulouse DataViz pour discuter entre participants, si vous avez besoin d’aide à propos des données ou pour rapporter des erreurs dans le jeu de données.
+N’hésitez pas à nous contacter sur [le salon discord](https://discord.gg/XSDEKX7thr) du Toulouse DataViz pour discuter entre participants, si vous avez besoin d’aide à propos des données ou pour rapporter des erreurs dans le jeu de données.
 
 Bonne chance !
 
