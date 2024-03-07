@@ -15,13 +15,13 @@ Bonne chance !
 
 Chaque jeu de donnée est disponible dans plusieurs formats à votre convenance:
 
--   parquet
-
 -   xlsx
 
 -   csv
 
-Une aide à la lecture de ces fichiers peut être trouvée [sur cette page]()/
+-   parquet
+
+Une aide à la lecture du format parquet  peut être trouvée [sur cette page](https://www.icem7.fr/cartographie/parquet-devrait-remplacer-le-format-csv/).
 
 ## Description des données `Paris_2024`
 
@@ -54,11 +54,11 @@ Le jeu de données `paris_2024` contient chacune des sessions programmées aux j
 | Catégorie_A_PFR     | Le prix des places pour la catégorie A des publics en fauteuil roulant et accompagnants (€).       | 25                                |
 | Catégorie_B_PFR     | Le prix des places pour la catégorie B des publics en fauteuil roulant et accompagnants (€).       | 15                                |
 
-: Dictionnaire de donnée de `Paris_2024`
+*Dictionnaire de données de `Paris_2024`*
 
 ## Description des données `restaurants_proximité`
 
-Le jeu de données `paris_2024` contient chacune des sessions programmées aux jeux 2024
+Le jeu de données `restaurants_proximité` est une liste de restaurants avec leur distance à un des site des jeux de Paris.
 
 | Nom de colonne    | Description                                                                                                                    | Exemple                        |
 |------------------|------------------------------------|------------------|
@@ -75,7 +75,7 @@ Le jeu de données `paris_2024` contient chacune des sessions programmées aux j
 | ville             | la ville accueillant l'épreuve et son code de département                                                                      | Paris (75)                     |
 | capacité          | la capacité d'accueil du public du `Lieu`                                                                                      | 3349                           |
 
-: Dictionnaire de donnée de `restaurants_proximité`
+*Dictionnaire de donnée de `restaurants_proximité`*
 
 ## Description des formats de fichiers
 
