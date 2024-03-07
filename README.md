@@ -23,7 +23,7 @@ Chaque jeu de donnée est disponible dans plusieurs formats à votre convenance:
 
 Une aide à la lecture du format parquet  peut être trouvée [sur cette page](https://www.icem7.fr/cartographie/parquet-devrait-remplacer-le-format-csv/).
 
-## Description des données `Paris_2024`
+## Description des données `paris_2024`
 
 Le jeu de données `paris_2024` contient chacune des sessions programmées aux jeux 2024
 
@@ -93,16 +93,16 @@ en vous fournissant les fichiers sous plusieurs formats :
 # Télécharger les données
 
 ## Ensemble des données
-toute les données sont dans le répertoire `/data/` de l'archive zip si vous cliquez sur [télécharger Hackaviz_2024.zip](https://github.com/Toulouse-Dataviz/hackaviz-2024/archive/refs/heads/main.zip)
+Toutes les données sont dans le répertoire `/data/` de l'archive zip si vous cliquez sur [télécharger Hackaviz_2024.zip](https://github.com/Toulouse-Dataviz/hackaviz-2024/archive/refs/heads/main.zip)
 
-## fichier `Paris_2024`
+## fichiers `paris_2024`
 
-[Paris_2024.parquet]()
-[Paris_2024.csv]()
-[Paris_2024.xlsx]()
+- [Paris_2024.parquet]()
+- [Paris_2024.csv]()
+- [Paris_2024.xlsx]()
 
 ## fichier `restaurants_proximité`
 
-[restaurants_proximité.geoparquet]()
-[restaurants_proximité.csv]()
-[restaurants_proximité.xlsx]()
+- [restaurants_proximité.geoparquet]()
+- [restaurants_proximité.csv]()
+- [restaurants_proximité.xlsx]()
