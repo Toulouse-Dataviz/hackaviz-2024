@@ -13,7 +13,7 @@ Bonne chance !
 
 ## Format des données
 
-Chaque jeu de donnée est disponible dans plusieurs formats à votre convenance:\
+Chaque jeu de donnée est disponible dans plusieurs formats à votre convenance:
 
 -   parquet
 
@@ -21,7 +21,7 @@ Chaque jeu de donnée est disponible dans plusieurs formats à votre convenance:
 
 -   csv
 
-Une aide à la lecture de ces fichiers peut être trouvée [sur cette page]()
+Une aide à la lecture de ces fichiers peut être trouvée [sur cette page]()/
 
 ## Description des données `Paris_2024`
 
