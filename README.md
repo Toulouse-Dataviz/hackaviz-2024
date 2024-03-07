@@ -13,17 +13,17 @@ Bonne chance !
 
 ## Format des données
 
-Chaque jeu de donnée est disponible dans plusieurs formats à votre convenance:\
-
--   parquet
+Chaque jeu de donnée est disponible dans plusieurs formats à votre convenance:
 
 -   xlsx
 
 -   csv
 
-Une aide à la lecture de ces fichiers peut être trouvée [sur cette page]()
+-   parquet
 
-## Description des données `Paris_2024`
+Une aide à la lecture du format parquet  peut être trouvée [sur cette page](https://www.icem7.fr/cartographie/parquet-devrait-remplacer-le-format-csv/).
+
+## Description des données `paris_2024`
 
 Le jeu de données `paris_2024` contient chacune des sessions programmées aux jeux 2024
 
@@ -54,11 +54,11 @@ Le jeu de données `paris_2024` contient chacune des sessions programmées aux j
 | Catégorie_A_PFR     | Le prix des places pour la catégorie A des publics en fauteuil roulant et accompagnants (€).       | 25                                |
 | Catégorie_B_PFR     | Le prix des places pour la catégorie B des publics en fauteuil roulant et accompagnants (€).       | 15                                |
 
-: Dictionnaire de donnée de `Paris_2024`
+*Dictionnaire de données de `Paris_2024`*
 
 ## Description des données `restaurants_proximité`
 
-Le jeu de données `paris_2024` contient chacune des sessions programmées aux jeux 2024
+Le jeu de données `restaurants_proximité` est une liste de restaurants avec leur distance à un des site des jeux de Paris.
 
 | Nom de colonne    | Description                                                                                                                    | Exemple                        |
 |------------------|------------------------------------|------------------|
@@ -75,7 +75,7 @@ Le jeu de données `paris_2024` contient chacune des sessions programmées aux j
 | ville             | la ville accueillant l'épreuve et son code de département                                                                      | Paris (75)                     |
 | capacité          | la capacité d'accueil du public du `Lieu`                                                                                      | 3349                           |
 
-: Dictionnaire de donnée de `restaurants_proximité`
+*Dictionnaire de donnée de `restaurants_proximité`*
 
 ## Description des formats de fichiers
 
@@ -93,16 +93,16 @@ en vous fournissant les fichiers sous plusieurs formats :
 # Télécharger les données
 
 ## Ensemble des données
-toute les données sont dans le répertoire `/data/` de l'archive zip si vous cliquez sur [télécharger Hackaviz_2024.zip](https://github.com/Toulouse-Dataviz/hackaviz-2024/archive/refs/heads/main.zip)
+Toutes les données sont dans le répertoire `/data/` de l'archive zip si vous cliquez sur [télécharger Hackaviz_2024.zip](https://github.com/Toulouse-Dataviz/hackaviz-2024/archive/refs/heads/main.zip)
 
-## fichier `Paris_2024`
+## fichiers `paris_2024`
 
-[Paris_2024.parquet]()
-[Paris_2024.csv]()
-[Paris_2024.xlsx]()
+- [Paris_2024.parquet]()
+- [Paris_2024.csv]()
+- [Paris_2024.xlsx]()
 
 ## fichier `restaurants_proximité`
 
-[restaurants_proximité.geoparquet]()
-[restaurants_proximité.csv]()
-[restaurants_proximité.xlsx]()
+- [restaurants_proximité.geoparquet]()
+- [restaurants_proximité.csv]()
+- [restaurants_proximité.xlsx]()
