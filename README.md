@@ -95,14 +95,3 @@ en vous fournissant les fichiers sous plusieurs formats :
 ## Ensemble des données
 Toutes les données sont dans le répertoire `/data/` de l'archive zip si vous cliquez sur [télécharger Hackaviz_2024.zip](https://github.com/Toulouse-Dataviz/hackaviz-2024/archive/refs/heads/main.zip)
 
-## fichiers `paris_2024`
-
-- [Paris_2024.parquet]()
-- [Paris_2024.csv]()
-- [Paris_2024.xlsx]()
-
-## fichier `restaurants_proximité`
-
-- [restaurants_proximité.geoparquet]()
-- [restaurants_proximité.csv]()
-- [restaurants_proximité.xlsx]()
