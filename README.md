@@ -21,7 +21,7 @@ Chaque jeu de donnée est disponible dans plusieurs formats à votre convenance:
 
 -   parquet
 
-Une aide à la lecture du format parquet  peut être trouvée [sur cette page](https://www.icem7.fr/cartographie/parquet-devrait-remplacer-le-format-csv/).
+Une aide à la lecture du format parquet  peut être trouvée [sur cette page](https://toulouse-dataviz.github.io/hackaviz-2024/chargement_des_donnees.html).
 
 ## Description des données `paris_2024`
 
